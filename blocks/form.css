@@ -1,5 +1,5 @@
 .form {
-  max-width: 385px;
+  width: 385px;
 }
 
 .form__fieldset {
@@ -17,10 +17,10 @@
   color: #000;
 }
 
-.form__label[for="agree"] {
+.form__label:last-child {
   display: flex;
-  margin: 32px 0 0;
   justify-content: center;
+  margin: 0;
 }
 
 .form__input {
@@ -57,6 +57,7 @@
   color: #fff;
   text-align: center;
   padding: 20px 0;
+  margin: 0 0 32px;
   border: none;
   border-radius: 4px;
   width: 100%;
